@@ -30,7 +30,7 @@ body {
   margin: 0px 20px;
   border: black 1px solid;
 }
-/* EndSite Layout */
+/* End Site Layout */
 
 /* Navigation */
 nav {
@@ -60,4 +60,12 @@ nav > a {
   font-size: xx-large;
   font-weight: 500;
   font-family: 'Work Sans', sans-serif;
+}
+
+/* Main */
+
+.profile-pic > img {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
 }
