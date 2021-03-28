@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/' className='navbar-header'>
-          CHRIS CALHOUN
+          bio
         </Link>
         <Link to='/' className='navbar-header'>
           experience

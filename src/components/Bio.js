@@ -2,7 +2,7 @@ import React from 'react';
 
 function Intro() {
   return (
-    <>
+    <div className='item bio'>
       <h3>Hi, I'm Chris</h3>
       <p>
         I am a part-time student at Nashville Software School (NSS) pursuing a
@@ -19,9 +19,11 @@ function Intro() {
         career out of it.
       </p>
       <p>
-        Outside of school work and work work, I enjoy climbing, chess, and ultimate frisbee(!). Thanks for reading and feel free to contact me here!
+        Outside of school work and work work, I enjoy climbing, chess, and
+        ultimate frisbee(!). Thanks for reading and feel free to contact me
+        here!
       </p>
-    </>
+    </div>
   );
 }
 

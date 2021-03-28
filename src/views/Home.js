@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import ProfilePic from '../components/ProfilePic';
-import Intro from '../components/Intro';
+import Bio from '../components/Bio';
 import Footer from '../components/Footer';
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
     <>
       <Header />
       <ProfilePic />
-      <Intro />
+      <Bio />
       <Footer />
     </>
   );

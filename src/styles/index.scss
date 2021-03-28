@@ -8,3 +8,14 @@
 body {
   background-color: $backgroundColor;
 }
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+    'profile-pic  header'
+    'bio          navbar'
+    'bio          navbar'
+    'bio          footer';
+}
