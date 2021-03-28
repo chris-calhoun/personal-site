@@ -3,7 +3,7 @@ import React from 'react';
 function ProfilePic() {
   return (
     <div className='item profile-pic'>
-      <h1>Picture</h1>
+      <img src='/images/profile-pic-circular.png' alt='profile' />
     </div>
   );
 }

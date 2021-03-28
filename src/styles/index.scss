@@ -16,6 +16,7 @@ body {
   // grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     'profile-pic  header-container'
+    'profile-pic  navbar'
     'bio          navbar'
     'bio          footer';
 }
