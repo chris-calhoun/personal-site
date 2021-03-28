@@ -1,3 +1,13 @@
 .bio {
   grid-area: bio;
+  padding: 3rem;
+  p {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 18px;
+  }
+}
+
+.intro {
+  font-family: 'Jaldi', sans-serif;
+  font-weight: bolder;
 }

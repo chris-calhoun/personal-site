@@ -13,9 +13,9 @@ body {
   display: grid;
   gap: 20px;
   grid-template-columns: 3fr 1fr;
+  // grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-    'profile-pic  header'
-    'bio          navbar'
+    'profile-pic  header-container'
     'bio          navbar'
     'bio          footer';
 }
