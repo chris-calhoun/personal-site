@@ -1,3 +1,13 @@
 .footer {
   grid-area: footer;
+  display: grid;
+  grid-auto-flow: column;
+  align-content: end;
+  justify-content: center;
+  padding: 1rem;
+  gap: 20px;
+  .item {
+    font-family: 'Noto Sans', sans-serif;
+    color: #424642;
+  }
 }
