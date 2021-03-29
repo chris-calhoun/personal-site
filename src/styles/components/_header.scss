@@ -1,3 +1,17 @@
-.header {
-  grid-area: header;
+.header-container {
+  grid-area: header-container;
+  padding: 3rem 1rem;
+}
+
+h1 {
+  text-align: right;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.firstName {
+  color: #c06014;
+}
+.lastName {
+  color: #536162;
 }

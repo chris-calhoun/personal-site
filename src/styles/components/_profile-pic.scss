@@ -1,3 +1,10 @@
 .profile-pic {
   grid-area: profile-pic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    max-width: 200px;
+    height: 200px;
+  }
 }

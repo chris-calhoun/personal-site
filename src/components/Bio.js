@@ -2,8 +2,8 @@ import React from 'react';
 
 function Intro() {
   return (
-    <div className='item bio'>
-      <h3>Hi, I'm Chris</h3>
+    <div className='bio'>
+      <h3 className='intro'>Hi, I'm Chris</h3>
       <p>
         I am a part-time student at Nashville Software School (NSS) pursuing a
         career in software engineering. It has been a long winding road to get

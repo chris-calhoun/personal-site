@@ -7,15 +7,19 @@
 
 body {
   background-color: $backgroundColor;
+  border-color: white;
+  border-width: 12px;
 }
 
 .container {
   display: grid;
+  height: 100vh;
   gap: 20px;
   grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 0.5fr 2fr 1fr;
   grid-template-areas:
-    'profile-pic  header'
-    'bio          navbar'
+    'profile-pic  header-container'
+    'profile-pic  navbar'
     'bio          navbar'
     'bio          footer';
 }
