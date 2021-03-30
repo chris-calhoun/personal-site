@@ -14,9 +14,6 @@ function Navbar() {
         <Link to='/' className='navbar-item'>
           projects
         </Link>
-        <Link to='/' className='navbar-item'>
-          contact
-        </Link>
       </nav>
     </>
   );

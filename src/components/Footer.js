@@ -27,7 +27,7 @@ function Footer() {
       </div>
       <div className='item item4'>
         <a href={Resume} target='_blank' rel='noreferrer'>
-          <i className='icon fas fa-file fa-2x'></i>
+          <i className='icon far fa-file fa-2x' title='Resume'></i>
         </a>
       </div>
     </footer>
