@@ -20,8 +20,7 @@ function Intro() {
       </p>
       <p>
         Outside of school work and work work, I enjoy climbing, chess, and
-        ultimate frisbee(!). Thanks for reading and feel free to contact me
-        here!
+        ultimate frisbee(!). Thanks for reading!
       </p>
     </div>
   );

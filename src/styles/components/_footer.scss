@@ -3,11 +3,16 @@
   display: grid;
   grid-auto-flow: column;
   align-content: end;
-  justify-content: center;
+  justify-content: end;
   padding: 1rem;
+  margin-bottom: 1rem;
   gap: 20px;
-  .item {
-    font-family: 'Noto Sans', sans-serif;
-    color: #424642;
-  }
+}
+
+.icon {
+  color: #424642;
+}
+
+.icon:hover {
+  color: #c06014;
 }
